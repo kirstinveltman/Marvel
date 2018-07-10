@@ -1,0 +1,11 @@
+use characters;
+
+CREATE TABLE charactersMarvel
+(
+FirstName varchar(50),
+LastName varchar(50),
+Age int,
+FavoriteColor varchar(50)
+);
+
+select * from charactersMarvel;
